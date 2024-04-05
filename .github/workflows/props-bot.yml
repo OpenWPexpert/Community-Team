@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       # The action needs permission `write` permission for PRs in order to add a comment.
-      pull-requests: write
+      issues: write
       contents: read
     timeout-minutes: 20
     # The job will run when pull requests are open, ready for review and:
@@ -49,9 +49,7 @@ jobs:
     # - The pull request is opened, synchronized, marked ready for review, or reopened.
     # - The `props-bot` label is added to the pull request.
     if: |
-      ( github.event_name == 'issue_comment' && github.event.issue || github.event_name == 'issue' ) &&
-      ( github.event_name == 'labeled' && 'props-bot' == github.event.label.name ) &&
-      ( ! github.event.pull_request.draft && github.event.pull_request.state == 'open' || ! github.event.issue.draft )
+      ( github.event_name == 'labeled' && 'props-bot' == github.event.label.name ) && ( ! github.event.issue.draft && github.event.issue.state == 'open' || github.event.issue.state == 'closed' )
     steps:
       - name: Gather a list of contributors
         uses: WordPress/props-bot-action@trunk
