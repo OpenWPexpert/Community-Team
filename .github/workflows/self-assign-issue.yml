@@ -15,7 +15,7 @@ jobs:
         with:
           github_token: "${{ secrets.GITHUB_TOKEN }}"
           trigger: "/claim"
-          required_label: ""
+          required_label: "Awaiting Triage"
           assigned_label: "self-assigned"
           assigned_comment: "👋 @{{ comment.user.login }}, you have claimed this issue and it is now assigned to you.<br>"
           already_assigned_comment: "👋 @{{ comment.user.login }}, this issue is already assigned to @{{ assignee.login }}.<br>Project Admins can also add you to the list of assignees or swap you with the current assignee. Or you can take a look at other unassigned issues we have.<br>"
