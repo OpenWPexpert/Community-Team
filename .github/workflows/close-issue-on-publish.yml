@@ -12,7 +12,12 @@ jobs:
       - name: Change Labels
         shell: bash
         run: |
-          gh issue edit "${{ github.event.issue.number }}" --add-label "[Content] Published" --remove-label "[Content] Needs Co-host"
-          gh issue close "${{ github.event.issue.number }}" --reason "completed"
+          gh issue edit -R "${{ github.repository }}" \
+          "${{ github.event.issue.number }}" \
+          --add-label "[Content] Published" \
+          --remove-label "[Content] Needs Co-host"
+          gh issue close -R "${{ github.repository }}" \
+          --reason "completed" \
+          "${{ github.event.issue.number }}"
         env:
           GH_TOKEN: ${{ github.token }}
