@@ -10,40 +10,35 @@ assignees: hellojuliarose
 ## Content Submission Form
 
 ### Content Details
-- **Title of Submission:**
-  - Enter the title of your submission here.
+- **Article Title:** _Share the title of your suggested article or topic_
 
-- **Summary/Abstract:**
-  - Provide a brief overview of the content.
+- **Summary of Content:**
+  - _Provide a brief overview of the suggested article or topic_
 
 ### Content Submission
 - **Full Content:**
-  - Enter the detailed content here.
+  - _Enter the detailed content here_
 
-- **Relevant Links:**
-  - Add any relevant links here.
+- **Relevant Links:** _Share any relevant links here_.
 
-- **Attachments:**
-  - Upload any relevant images or documents.
+- **Images:** _Include links to any relevant images_.
 
 ### Relevance and Impact
 - **How does this content inform, empower, or inspire meetup organizers?**
-  - Explain how your content will benefit meetup organizers.
+  - _Explain how your content will benefit meetup organizers_.
 
 - **In what month should this be published? Why is this content timely and relevant for the month?**
-  - Describe the timeliness and relevance of your content.
+  - _Describe the timeliness and relevance of your content_.
 
 ### Additional Information
-- **Suggested Headline:**
-  - Provide a suggested headline for the newsletter segment.
+- **Suggested Headline:** _Provide a suggested headline for the newsletter segment_.
 
 - **Target Audience:**
   - [ ] New organizers
   - [ ] Experienced organizers
   - [ ] General community
 
-- **Any Additional Notes or Comments:**
-  - Add any additional notes or comments here.
+- **Any Additional Notes or Comments:** _Add any additional notes or comments here_.
 
 - **Permission to Edit:**
   - [ ] I allow the editorial team to make necessary edits.
