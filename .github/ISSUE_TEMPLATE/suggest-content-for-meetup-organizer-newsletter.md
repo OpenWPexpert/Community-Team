@@ -10,27 +10,27 @@ assignees: hellojuliarose
 ## Content Submission Form
 
 ### Content Details
-- **Suggested headline for the newsletter segment:** 
+**Suggested headline for the newsletter segment:** 
 
-- **Summary of suggested content:**
+**Summary of suggested content:**
 
-- **Full content (if applicable):**
+**Full content (if applicable):**
 
-- **Share any relevant links here, including to images:**
+**Share any relevant links here, including to images:**
 
-- **How does this content inform, empower, or inspire meetup organizers?**
+**How does this content inform, empower, or inspire meetup organizers?**
 
-- **During which month should this be published?**
+**During which month should this be published?**
 
-- **Why is this content timely and relevant?**
+**Why is this content timely and relevant?**
 
 ### Additional Information
-- **Target Audience:**
-  - [ ] New organizers
-  - [ ] Experienced organizers
-  - [ ] General community
+**Target Audience:**
+[ ] New organizers
+[ ] Experienced organizers
+[ ] General community
 
-- **Any Additional Notes or Comments:**
+**Any Additional Notes or Comments:**
 
-- **Permission to Edit:**
-  - [ ] I allow the editorial team to make necessary edits.
+**Permission to Edit:**
+[ ] I allow the editorial team to make necessary edits.
