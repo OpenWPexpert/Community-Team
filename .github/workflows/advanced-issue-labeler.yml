@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4.1.1
 
       - name: Parse issue form
-        uses: stefanbuck/github-issue-parser@v3.1.0
+        uses: stefanbuck/github-issue-parser@v3.2.1
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/0-event-application-vetting.yml
